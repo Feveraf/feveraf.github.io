@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- metadatos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Felix Vega">
+    <meta name="description" content="portafolio de Felix Vega">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <!-- titulo -->
+    <title>Felix Vega | Portafolio</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="img/icono.png">
+    
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">FELIX</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MÍ</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png"">
+            </div>
+            <h1>FÉLIX VEGA</h1>
+            <h2>Estudiante Ingeniería Civil Informática y Técnico en Telecomunicaciones, conectividad y redes.</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://github.com/Feveraf  " target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Félix Vega.</span> Técnico en telecomunicaciones , conectividad y redes , actualmente cursando último año de Ingeniería Civil en Informática , en busca de nuevas oportunidades y apoyar a las necesidades de la empresa , y a la vez ampliar mi experiencia y conocimiento en el área.
+                Soy una persona responsable, pro-activa, trabajo en equipo y también de manera autónoma.
+                Me gusta conocer cosas nuevas y dedicarle interés a la hora de aprender nuevas habilidades.
+                </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Ubicación</strong>
+                            Santiago-Chile
+                        </li>
+                        
+                        
+                    </ul>
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li>
+                            <strong>Español</strong>
+                            Nativo
+                        </li>
+                        <li>
+                            <strong>Inglés</strong>
+                            Avanzado
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-video"></i>
+                            <span>PELÍCULAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>ARTE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- habilidades -->
+                <div class="col">
+                    <h3>Técnicas</h3>
+                    <div class="skill">
+                        <span>Python </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería Civil Informática</h4>
+                        <span class="casa">Universidad Autónoma de Chile</span>
+                        <span class="fecha">2018-presente</span>
+                        <div class="conectori">
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico en Telecomunicaciones, conectividad y redes</h4>
+                        <span class="casa">INACAP</span>
+                        <span class="fecha">2015-2017</span>
+                        <div class="conectori">
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bootcamp “Desarrollador de Aplicaciones de software” </h4>
+                        <span class="casa">Madicap</span>
+                        <span class="fecha">2021-2021</span>
+                        <div class="conectori">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Digitador</h4>
+                        <span class="casa">Renhet Chile</span>
+                        <span class="fecha">2020 - 2020</span>
+                        <div class="conectord">
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Soporte IT</h4>
+                        <span class="casa">JCDecaux Chile</span>
+                        <span class="fecha">2019 - 2019</span>
+                        <div class="conectord">
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Contador Técnico</h4>
+                        <span class="casa">“Integral Soluciones” S.A.</span>
+                        <span class="fecha">2014-2014</span>
+                        <!-- <p>Descripcion de trabajo aqui</p> -->
+                        <div class="conectord">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Creación Software de Ventas </h3>
+                        <p>Java y sql</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Modulo Bodega</h3>
+                        <p>Flutter</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/proyecto4.png" alt="">
+                    <div class="overlay">
+                        <h3>Landing Page</h3>
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="row">
+                    <h3>
+                      ¡Hablemos!
+                    </h3>
+                    <div >
+                      Contáctame, aprendo y creo todos los dias. Empezemos a trabajar juntos.
+                    </div>
+                    <div class="xd">
+                      <a href="mailto:felix.vr515@gmail.com">
+                        <button type="button">  
+                          Enviar mensaje
+                          <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="mailto:felix.vr515@gmail.com" ><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://github.com/Feveraf  " target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <div class="derechos-de-autor">Creado por Felix Vega (2022) &#169;</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
