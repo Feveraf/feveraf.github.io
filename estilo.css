@@ -608,22 +608,7 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
-.contacto {
-        text-align: center;
-    }
 
-    .fila {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .row {
-        text-align: center;
-        margin: 0 auto; /* Centra el contenido horizontalmente */
-        max-width: 600px; /* Ajusta el ancho según sea necesario */
-    }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
