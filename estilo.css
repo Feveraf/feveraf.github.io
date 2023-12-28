@@ -333,6 +333,14 @@ html{
     0%{width: 0%;}
     100%{width: 100%;}
 }
+.skills .skill .GCP{
+    width: 0%;
+    animation: 2s Responsabilidad forwards;
+}
+@keyframes GCP {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
 /* SECCION CURRICULUM */
 .curriculum{
     background: linear-gradient(to top, rgba(28, 34, 39, 0.8), rgb(24, 28, 31)),
